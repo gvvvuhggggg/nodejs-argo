@@ -1,15 +1,15 @@
-# fly.toml app configuration file generated for gfhj on 2026-01-16T14:58:17Z
+# fly.toml app configuration file generated for nodejs-argo-8rfnrq on 2026-01-16T15:08:41Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'gfhj'
+app = 'nodejs-argo-8rfnrq'
 primary_region = 'nrt'
 
 [build]
 
 [http_service]
-  internal_port = 8080
+  internal_port = 3000
   force_https = true
   auto_stop_machines = 'stop'
   auto_start_machines = true
